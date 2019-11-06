@@ -51,19 +51,25 @@ a:link {
   border-width: 1px;
   text-align: center;
   color: #eeeeee;
-  transition: background 0.5s;
+  transition: background 0.5s, transform 0.25s ease-in-out;
   position: relative;
+}
+
+.CustomButton p {
+  line-height: 48px;
 }
 
 .CustomButton:hover {
   background: #28837e;
-  scale: 1.2;
+  transform: scale(1.2);
+  border-color: #eeeeee;
+  border-width: 2px;
 }
 
-/* .CustomButton:click {
+.CustomButton:active {
   background: #28837e;
-  scale: 1.1;
-} */
+  transform: scale(0.75);
+}
 
 .HeaderLink a {
   margin-left: 20px;
@@ -148,5 +154,3 @@ h1 {
     margin: 0 auto;
   }
 }
-
-/* CSS @media Rules */

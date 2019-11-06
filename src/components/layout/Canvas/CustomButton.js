@@ -1,20 +1,5 @@
 import React, { Component } from "react";
-import posed from "react-pose";
 import { Link } from "react-scroll";
-
-const Rect = posed.button({
-  hoverable: true,
-  pressable: true,
-  init: {
-    scale: 1
-  },
-  hover: {
-    scale: 1.2
-  },
-  press: {
-    scale: 1.1
-  }
-});
 
 export class CustomButton extends Component {
   constructor(props) {
@@ -36,9 +21,9 @@ export class CustomButton extends Component {
         offset={-50}
         duration={500}
       >
-        <Rect className="CustomButton" style={this.buttonStyle}>
-          {this.props.text}
-        </Rect>
+        <div className="CustomButton" style={this.buttonStyle}>
+          <p>{this.props.text}</p>
+        </div>
       </Link>
     );
   }
