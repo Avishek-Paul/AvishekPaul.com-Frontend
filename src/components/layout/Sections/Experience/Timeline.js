@@ -44,8 +44,12 @@ export class Timeline extends Component {
             AppNexus: New York, NY
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+            - Created a Slack Bot that would learn to answer frequently asked
+            questions in various capability channels. <br />- Answer similar
+            questions if it has an answer stored. <br />- Logs questions it
+            doesn't know and waits for a human to answer it (then logs the
+            answer as well).
+            <br /> - Built in Python. Uses Redis as a message queue.
           </p>
         </VerticalTimelineElement>
 
