@@ -12,7 +12,6 @@ export class CustomButton extends Component {
 
   render() {
     return (
-      // <a href={this.props.link}>
       <Link
         activeClass="active"
         to="about"
