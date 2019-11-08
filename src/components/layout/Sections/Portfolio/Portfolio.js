@@ -8,24 +8,30 @@ export class Portfolio extends Component {
         <h1>Portfolio [WIP]</h1>
         <div className="Gallery">
           <Card
+            id="card-1"
             width="390px"
             height="300px"
-            background="url(https://via.placeholder.com/450x300/28837E/FFFFFF?text=This%20Website)"
-            text="Python and React.js"
+            languages="Python and React.js"
+            title="This Website"
+            link="home"
           />
           <Card
+            id="card-2"
             width="390px"
             height="300px"
-            background="url(https://via.placeholder.com/450x300/FF8700/EEEEEE?text=Slack%20Bot)"
-            text="Python"
+            languages="Python"
+            title="Slack Assistant"
           />
           <Card
+            id="card-3"
             width="390px"
             height="300px"
-            background="url(https://via.placeholder.com/450x300/005A43/EEEEEE?text=Recon%20Rover)"
-            text="Java/Android and Python"
+            languages="Java/Android and Python"
+            title="Recon Robot"
+            link="https://www.binghamton.edu/news/story/1847/watson-seniors-design-reconnaissance-robot-for-police-work"
           />
         </div>
+        <br />
       </div>
     );
   }

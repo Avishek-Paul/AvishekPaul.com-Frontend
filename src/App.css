@@ -176,6 +176,8 @@ h1 {
 
 .Gallery .Card {
   position: relative;
+  flex-grow: 1;
+  flex: 1 1 45%;
 }
 
 .Card:hover .CardText {
@@ -193,11 +195,8 @@ h1 {
 }
 
 .Gallery .Card .CardImage {
-  max-width: 100%;
-  width: calc(50vw - 8px);
-  flex-grow: 1;
-  flex: 1 1 45%;
   transition: all 0.75s;
+  height: 300px;
 }
 
 .Gallery .CardText {
@@ -207,7 +206,7 @@ h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  transition: all 0.75s;
+  transition: all 0.65s;
   opacity: 0;
 }
 
@@ -218,5 +217,21 @@ h1 {
   margin: 0 auto;
   position: absolute;
   opacity: 0;
-  transition: all 0.75s;
+  transition: all 0.65s;
+}
+
+#card-1 {
+  background: url(https://via.placeholder.com/390x300/28837e/EEEEEE?text=This%20Website);
+}
+
+#card-2 {
+  background: url(https://via.placeholder.com/390x300/FF8700/EEEEEE?text=Slack%20Bot);
+}
+
+#card-3 {
+  background: url(https://via.placeholder.com/390x300/005A49/EEEEEE?text=Recon%20Robot);
+}
+
+#card-3 {
+  background: url(https://www.binghamton.edu/news/images/uploads/features/_normal/IMG_4100.jpg);
 }
