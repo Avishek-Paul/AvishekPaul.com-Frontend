@@ -13,7 +13,7 @@ export class Portfolio extends Component {
             height="300px"
             languages="Python and React.js"
             title="This Website"
-            link="home"
+            link="https://github.com/Avishek-Paul/AvishekPaul.com"
           />
           <Card
             id="card-slack"
