@@ -167,17 +167,27 @@ h1 {
 
 /* PORTFOLIO SECTION */
 
+@media only screen and (min-width: 775px) {
+  .Gallery .Card {
+    position: relative;
+    flex-grow: 1;
+    flex: 1 1 45%;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .Gallery .Card {
+    position: relative;
+    flex-grow: 1;
+    flex: 1 1 50%;
+  }
+}
+
 .Gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-}
-
-.Gallery .Card {
-  position: relative;
-  flex-grow: 1;
-  flex: 1 1 45%;
 }
 
 .Card:hover .CardText {
