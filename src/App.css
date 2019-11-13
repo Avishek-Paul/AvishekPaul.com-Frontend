@@ -239,7 +239,12 @@ h1 {
 }
 
 #card-website {
-  background: url(https://via.placeholder.com/390x300/28837e/EEEEEE?text=This%20Website);
+  background: url("./components/layout/Sections/Portfolio/images/website_image.png");
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: round;
 }
 
 #card-slack {
@@ -248,8 +253,14 @@ h1 {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+  background-repeat: round;
 }
 
 #card-recon {
   background: url(https://www.binghamton.edu/news/images/uploads/features/_normal/IMG_4100.jpg);
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: round;
 }
