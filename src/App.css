@@ -190,6 +190,10 @@ h1 {
   justify-content: center;
 }
 
+.Card:hover {
+  border: solid #28837e 1px;
+}
+
 .Card:hover .CardText {
   opacity: 1;
   top: 25%;
@@ -220,6 +224,10 @@ h1 {
   opacity: 0;
 }
 
+.CardTextTitle {
+  color: #28837e;
+}
+
 .Gallery .CustomButton {
   right: 0;
   bottom: 0;
@@ -230,18 +238,18 @@ h1 {
   transition: all 0.65s;
 }
 
-#card-1 {
+#card-website {
   background: url(https://via.placeholder.com/390x300/28837e/EEEEEE?text=This%20Website);
 }
 
-#card-2 {
-  background: url(https://via.placeholder.com/390x300/FF8700/EEEEEE?text=Slack%20Bot);
+#card-slack {
+  background: url("./components/layout/Sections/Portfolio/images/slack_image.png");
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
-#card-3 {
-  background: url(https://via.placeholder.com/390x300/005A49/EEEEEE?text=Recon%20Robot);
-}
-
-#card-3 {
+#card-recon {
   background: url(https://www.binghamton.edu/news/images/uploads/features/_normal/IMG_4100.jpg);
 }

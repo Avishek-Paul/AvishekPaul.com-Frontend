@@ -8,7 +8,7 @@ export class Portfolio extends Component {
         <h1>Portfolio [WIP]</h1>
         <div className="Gallery">
           <Card
-            id="card-1"
+            id="card-website"
             width="390px"
             height="300px"
             languages="Python and React.js"
@@ -16,14 +16,14 @@ export class Portfolio extends Component {
             link="home"
           />
           <Card
-            id="card-2"
+            id="card-slack"
             width="390px"
             height="300px"
             languages="Python"
             title="Slack Assistant"
           />
           <Card
-            id="card-3"
+            id="card-recon"
             width="390px"
             height="300px"
             languages="Java/Android and Python"

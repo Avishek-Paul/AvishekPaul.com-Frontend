@@ -18,7 +18,8 @@ export class Card extends Component {
       <div className="Card" style={this.cardStyle}>
         <div className="CardImage" id={this.props.id}></div>
         <div className="CardText">
-          {this.props.title} <br /> {this.props.languages}
+          <span className="CardTextTitle">{this.props.title}</span>
+          <br /> {this.props.languages}
         </div>
 
         <CustomButton
