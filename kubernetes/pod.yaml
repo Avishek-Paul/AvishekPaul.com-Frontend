@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: react-pod
+  labels:
+    app: react-personal-website
+spec:
+  containers:
+  - name: frontend
+    image: apaul18/frontend:latest
+    ports:
+    - containerPort: 3000
