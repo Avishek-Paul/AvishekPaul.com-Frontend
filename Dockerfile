@@ -1,6 +1,11 @@
-FROM node:12.16.1-alpine
+FROM node:12.16.1-alpine as react-build
 WORKDIR /app
 COPY . .
-RUN npm install
-EXPOSE 3000
-CMD ["npm", "start"]
+RUN yarn
+RUN yarn build
+
+# Stage 2 - the production environment
+FROM nginx:alpine
+COPY --from=react-build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
